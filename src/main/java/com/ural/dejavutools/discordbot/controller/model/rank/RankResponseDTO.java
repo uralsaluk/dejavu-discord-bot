@@ -1,0 +1,17 @@
+package com.ural.dejavutools.discordbot.controller.model.rank;
+
+
+import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class RankResponseDTO {
+
+
+  private List<CharacterGrindRankDTO> dataList;
+
+}
